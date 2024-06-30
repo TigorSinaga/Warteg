@@ -1,0 +1,33 @@
+.wrapper-kasir {
+    margin-top: 100px;
+    background: rgba(231, 228, 228, 0.244);
+}
+
+.col {
+    text-align: center;
+    padding: 10px;
+}
+
+.btn {
+    width: 250px;
+}
+.wrapper-kasir {
+    margin-top: 20px;
+}
+
+.label-col p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+.btn-group .btn {
+    width: 100%;
+}

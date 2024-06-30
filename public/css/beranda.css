@@ -1,0 +1,125 @@
+#con-beranda {
+    margin-top: 20px;
+}
+
+#con-beranda .row {
+    margin-bottom: 10px;
+}
+
+#con-menu,
+#con-bayar {
+    justify-content: center;
+    align-items: center;
+}
+
+#con-bayar {
+    height: 20rem;
+    background: rgba(231, 228, 228, 0.244);
+    justify-content: center;
+}
+
+#con-bayar .col {
+    text-align: center;
+}
+
+/* .wrapper-bayar
+{
+    margin-right: 40px;
+} */
+
+#con-beranda img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.card {
+    width: 18rem; /* Ukuran card tetap */
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img-top {
+    width: 100%; /* Gambar mengisi lebar card */
+    height: 180px; /* Tinggi gambar tetap */
+    object-fit: cover; /* Menjaga rasio gambar */
+    border-top-left-radius: calc(0.5rem - 1px);
+    border-top-right-radius: calc(0.5rem - 1px);
+}
+
+.card-body {
+    padding: 1.25rem;
+    text-align: center; /* Teks di tengah */
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.btn-outline-danger,
+.btn-outline-primary {
+    border-radius: 0.25rem;
+}
+
+.modal-dialog {
+    max-width: 80%; /* Lebar modal yang responsif */
+}
+
+.modal-content {
+    border-radius: 0.5rem;
+}
+
+/* Memastikan card terletak di tengah kolom */
+.row-cols-md-2 .col {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.container-fluid {
+    padding: 2rem;
+}
+
+h4 {
+    text-align: center;
+}
+
+.bi-check-circle {
+    animation: checkmark 1s ease;
+}
+
+@keyframes checkmark {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+#popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+}
