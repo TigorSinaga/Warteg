@@ -71,6 +71,48 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="img/ayamgoreng.png" class="card-img-top" alt="Ayam Goreng">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ayam Goreng</h5>
+                                    <p class="card-text">Rp7.000</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <button class="btn btn-outline-danger" onclick="decreaseQuantity(this)"><i class="fas fa-minus"></i></button>
+                                        <input type="text" class="form-control text-center" value="0" readonly style="width: 50px;">
+                                        <button class="btn btn-outline-primary" onclick="increaseQuantity(this)"><i class="fas fa-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="img/mendoan.png" class="card-img-top" alt="Mendoan">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mendoan</h5>
+                                    <p class="card-text">Rp1.000</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <button class="btn btn-outline-danger" onclick="decreaseQuantity(this)"><i class="fas fa-minus"></i></button>
+                                        <input type="text" class="form-control text-center" value="0" readonly style="width: 50px;">
+                                        <button class="btn btn-outline-primary" onclick="increaseQuantity(this)"><i class="fas fa-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="img/sop.png" class="card-img-top" alt="Sop">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sop</h5>
+                                    <p class="card-text">Rp2.000</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <button class="btn btn-outline-danger" onclick="decreaseQuantity(this)"><i class="fas fa-minus"></i></button>
+                                        <input type="text" class="form-control text-center" value="0" readonly style="width: 50px;">
+                                        <button class="btn btn-outline-primary" onclick="increaseQuantity(this)"><i class="fas fa-plus"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
                         <!-- Repeat for other items -->
                     </div>
